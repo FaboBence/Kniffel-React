@@ -27,8 +27,12 @@
 ![image](https://user-images.githubusercontent.com/65888378/140897034-1816cfd4-d4a8-47d8-8425-9b36685376cd.png)
 
 ## Further ideas
+- Hover effect showing description of categories.
 - Sound effects when throwing the dice, and cheering sounds at game end.
 - Pop-up window at game end showing placements.
-- Expandable menu with settings to mute sounds ...etc.
+- Expandable menu 
+   - to mute sounds
+   - game rules
+   - ... etc.
 - Leaderboard keeping track of the highest points achieved.
 - Customizable dice styles and color theme (e.g. dark mode)
