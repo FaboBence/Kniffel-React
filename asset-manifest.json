@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Kniffel-React/static/css/main.9032729b.chunk.css",
+    "main.js": "/Kniffel-React/static/js/main.a4decb08.chunk.js",
+    "main.js.map": "/Kniffel-React/static/js/main.a4decb08.chunk.js.map",
+    "runtime-main.js": "/Kniffel-React/static/js/runtime-main.99d7cfdd.js",
+    "runtime-main.js.map": "/Kniffel-React/static/js/runtime-main.99d7cfdd.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/Kniffel-React/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.b106c17f.chunk.js": "/Kniffel-React/static/js/2.b106c17f.chunk.js",
+    "static/js/2.b106c17f.chunk.js.map": "/Kniffel-React/static/js/2.b106c17f.chunk.js.map",
+    "index.html": "/Kniffel-React/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/Kniffel-React/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.9032729b.chunk.css.map": "/Kniffel-React/static/css/main.9032729b.chunk.css.map",
+    "static/js/2.b106c17f.chunk.js.LICENSE.txt": "/Kniffel-React/static/js/2.b106c17f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99d7cfdd.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.b106c17f.chunk.js",
+    "static/css/main.9032729b.chunk.css",
+    "static/js/main.a4decb08.chunk.js"
+  ]
+}
