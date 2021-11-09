@@ -13,7 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://FaboBence.github.io/Kniffel-React",
+  "homepage": "https://fabobence.github.io/Kniffel-React/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
