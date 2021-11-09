@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Kniffel in React
+ (Made by using npm create-react-app in Node.js)
+ 
+ ### Kniffel dice game (also called Yahtzee): 
+ - https://en.wikipedia.org/wiki/Yahtzee
+ - https://de.wikipedia.org/wiki/Kniffel
+ 
+ ## Implementation
+ 
+ - The program is written in Javascript using React.
+    - Main file is App.js keeping track of the game state, parent of all other components.
+    - RollDice component is responsible for the dice, and related buttons.
+    - Dice component renders a single dice with the correct color scheme (selected or not) and animation status (shaking or not).
+ - The game can be played individually or with maximum 6 players. (Default is set to 4, but can be changed in the Navigation Bar.)
+ - Steps:
+      - Player 1 presses "Würfeln" button to throw the dice.
+      - If he wants to keep any of the dice, he has to click on that particular die to select it.
+      - Every turn a player has 3 chances to throw the dice, the selected ones will not change.
+      - If the player does not want to use all of his throws, he can push the "Fertig" button.
+      - After the 3 throws are done or the "Fertig" button was pushed, the player has to select one of thirteen categories in the score table. The points for the given category are calculated automatically.
+      - After the points were calculated, the game moves on to the next player.
+- These steps are repeated until all thirteen categories for all players are full.
+- At the bottom of the score table players can see who gathered the most points in the "Gesamtsumme" row.
+- The game can be reset by using the "Reset" button under the table. (Or by selecting a different starting player count in the navigation bar)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/65888378/140896819-e6548378-399a-4632-ba97-d76a789487a5.png)
+![image](https://user-images.githubusercontent.com/65888378/140897034-1816cfd4-d4a8-47d8-8425-9b36685376cd.png)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Further ideas
+- Sound effects when throwing the dice, and cheering sounds at game end.
+- Pop-up window at game end showing placements.
+- Expandable menu with settings to mute sounds ...etc.
+- Leaderboard keeping track of the highest points achieved.
+- Customizable dice styles and color theme (e.g. dark mode)
